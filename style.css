@@ -692,7 +692,7 @@ h2 span {
 /* MERCH */
 
 .merch-section {
-    min-height: 800px;
+    min-height: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
