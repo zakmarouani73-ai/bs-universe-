@@ -401,7 +401,18 @@ h2 span {
     align-items: center;
     justify-content: center;
 }
+.creator-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.5s ease;
+}
 
+.creator-card:hover .creator-image img {
+    transform: scale(1.05);
+}
 .bedis-image {
     background:
         radial-gradient(circle at center, #3b0a14, #101010 70%);
